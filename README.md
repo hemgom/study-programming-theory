@@ -6,3 +6,5 @@
    - `study programming theory`  
      　　└──┤`<공부 할 분야> theory`  
      　　　　　　　　└──┤`<정리한 내용 제목>.md`
+### 3. 공부 중인 분야
+- java

@@ -25,7 +25,7 @@ public enum ExEnum {
   - 다음 상수들에는 순차적으로 `1`이 증가한 상수값이 저장된다.
 ### 2. 사용
 ```
-import 패키지경로.ExEnum.*;     // 작성자는 다른 패키지에 'enum'이 있기 때문에 
+import static 패키지경로.ExEnum.*;     // 작성자는 다른 패키지에 'enum'이 있기 때문에 
 
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public enum EX_enum {
 - 위 처럼 상수에 상수값을 지정할 경우 해당 값을 저장할 `인스턴스 변수`와 `생성자`가 필요하다.
 - 열거체에 저장된 상수를 사용하기 위한 메서드 또한 열거체에 구현해준다.
 ```
-import 패키지경로.ExEnum.*;     // 작성자는 다른 패키지에 'enum'이 있기 때문에 
+import static 패키지경로.ExEnum.*;     // 작성자는 다른 패키지에 'enum'이 있기 때문에 
 
 public class Main {
     public static void main(String[] args) {

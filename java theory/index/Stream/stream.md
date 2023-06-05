@@ -82,11 +82,9 @@ intStream.limit(5).forEach(System.out::println); // 5개의 요소만 출력
 - `forEach()` - 스트림의 모든 요소에 지정된 작업을 수행, 병렬스트림인 경우 순서보장 x
    - `forEachOrdered()` - 병렬스트림인 경우 순서보장 o
 <br><br>
-***
 ## 용어 정리
 1. `Iterator` : 컬렉션에 저장된 요소를 접근하는데 사용되는 인터페이스
 2. `지연 연산(Lazy Evaluation)` : 불필요한 연산을 피하기 위해 연산을 지연시키는 기법
 <br><br>
-***
 ## ※ 업데이트
 - written first - 23.06.05 
